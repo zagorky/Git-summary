@@ -22,7 +22,7 @@ GitHub — это веб-сервис для размещения проекто
 
 `git config --global init.defaultbranch имяОсновнойВетки` - настроить имя основной ветки по умолчанию вместо master/main
 
-`git config -l --global` - проверить изменилось ли имя главной ветки, `init.defaultbranch` === `имяОсновнойВетки`, например: `init.defaultbranch=main-or-whatever-you-want`
+`git config -l --global` - проверить изменилось ли имя главной ветки, `init.defaultbranch` === `имяОсновнойВетки`
 
 Про изменение имени ветки на гитхаб более подробно можно прочитать [здесь](https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories)
 
@@ -190,7 +190,7 @@ GitHub — это веб-сервис для размещения проекто
 #### Изменение имени ветки
 
 `git branch -m имяОсновнойВетки` - позволяет изменить имя основной ветки.
-Если необходимо глобально изменять имя главной ветки всегда, это можно сделать в настройках конфигурации. Подробнее в блоке [Настройки](#настройки)
+Если необходимо глобально изменять имя главной ветки всегда, это можно сделать в настройках конфигурации. Подробнее в блоке [Настройкa](#настройкa)
 
 ### Слияние веток
 
@@ -402,8 +402,8 @@ BLOB - binary large object - минимальная атомарная ячей�
 
 ### Источники
 
-1. [Шпаргалка по Git от GitHub] (https://training.github.com/downloads/ru/github-git-cheat-sheet/)
+1. [Шпаргалка по Git от GitHub](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 2. [Version Control with Git ](https://learn.epam.com/catalog/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e)
 3. [Гайд по rebase ](https://eternalrival.notion.site/Rebase-tutorial-694c542f037a49b8ac5dc472defb25ea)
-4. [Изменение имени ветки на гитхаб] (https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories)
+4. [Изменение имени ветки на гитхаб](https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories)
 5. [Git WorkTree](https://habr.com/ru/articles/826260/)
