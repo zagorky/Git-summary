@@ -22,6 +22,10 @@ GitHub — это веб-сервис для размещения проекто
 
 `git config --global init.defaultbranch имяОсновнойВетки` - настроить имя основной ветки по умолчанию вместо master/main
 
+`git config -l -g` - проверить изменилось ли имя главной ветки, `init.defaultbranch` === `имяОсновнойВетки`, например: `init.defaultbranch=main-or-whatever-you-want`
+
+Про изменение имени ветки на гитхаб более подробно можно прочитать [здесь](https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories)
+
 ### Создание репозитория
 
 `git init имя проекта` - инициализация репозитория, используется для создания нового локального репозитория в текущей директории.
