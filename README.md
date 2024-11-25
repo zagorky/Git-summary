@@ -423,3 +423,4 @@ BLOB - binary large object - минимальная атомарная ячей�
 3. [Гайд по rebase ](https://eternalrival.notion.site/Rebase-tutorial-694c542f037a49b8ac5dc472defb25ea)
 4. [Изменение имени ветки на гитхаб](https://docs.github.com/ru/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-user-account-settings/managing-the-default-branch-name-for-your-repositories)
 5. [Git WorkTree](https://habr.com/ru/articles/826260/)
+6. [What to do if you accidentally committed your node_modules](https://dev.to/momentum/what-to-do-if-you-accidentally-committed-your-nodemodules-323o)
